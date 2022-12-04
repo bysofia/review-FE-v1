@@ -44,7 +44,7 @@ const LoginForm = ({
           type: "LOGIN_SUCCESS",
           payload: response.data.data
         })
-        navigate('/add-product')
+        navigate('/transaction')
         console.log("data berhasil ditambahkan", response.data.data)
       } catch (err) {
         const alert = (<Alert variant='danger' className='py-1'>
