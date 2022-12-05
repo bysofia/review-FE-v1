@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const API = axios.create({
-    baseURL: "https://1985-2404-8000-1004-b94f-981-cb38-ac28-b410.ap.ngrok.io/api/v1/",    
+    baseURL: "http://localhost:5000",    
 });
 
 export const setAuthToken = (token) => {
